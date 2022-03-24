@@ -12,5 +12,6 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Cloud Computing
+  logo: "/images/sections/skills/cloud.png"
   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
   
