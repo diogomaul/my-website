@@ -1,6 +1,6 @@
 # some information about you
 name: "Diogo Maul"
-nickname: "Maul"
+nickname: "Diogo"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
 image: "images/author/diogo.png"
@@ -15,3 +15,5 @@ summary:
   - I am a Devops Engineer
   - I love Sports, Games, Travelling, Dogs, Beer, Nature...
   - I love to work with some fun projects
+  - I'm from Brazil
+  - My XBOX gamertag is baralhao
