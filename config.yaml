@@ -26,11 +26,11 @@ enableEmoji: true
 # Site parameters
 params:
 
-  background: "images/background.jpg"
+  background: "/images/site/background.jpg"
 
   logo:
-  main: images/pluralsight-logo.png
-  inverted: images/pluralsight-logo.png
+  main: /images/site/pluralsight-logo.png
+  inverted: images/site/pluralsight-logo.png
 
   # GitHub repo URL of your site
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
