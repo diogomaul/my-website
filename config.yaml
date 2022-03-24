@@ -25,10 +25,13 @@ enableEmoji: true
 
 # Site parameters
 params:
+
+  background: "/images/background.jpg"
+
   # GitHub repo URL of your site
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
 
-  background: "images/background.png"
+  
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
