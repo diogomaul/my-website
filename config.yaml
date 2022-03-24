@@ -25,12 +25,12 @@ enableEmoji: true
 
 # Site parameters
 params:
-
+  # Background image of the landing page
   background: /images/site/background.jpg
 
   logo:
-  main: /images/site/pluralsight-logo.png
-  inverted: images/site/pluralsight-logo.png
+    main: /images/site/pluralsight-logo.png
+    inverted: images/site/pluralsight-logo.png
 
   # GitHub repo URL of your site
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
