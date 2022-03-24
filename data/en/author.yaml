@@ -6,14 +6,20 @@ greeting: "Hi, I am"
 image: "images/author/diogo.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "johndoe@example.com"
-  phone: "+0123456789"
+  email: "diogomaul@outlook.com"
+  linkedin: https://www.linkedin.com/in/diogomaul/
+  #phone: "+0123456789"
 
 # some summary about what you do
 summary:
   - I am a Cloud Architect
-  - I might also be a Devops Engineer...
   - I love Sports, Games, Travelling, Dogs, Beer, Nature...
   - I love to work with some fun projects, like this website
-  - I'm from Brazil
+  - I am from Brazil;
+  - I moved with my wife to Canada with  in 2018
+  - I might also be a Devops Engineer...
   - My XBOX gamertag is baralhao
+  - I'm married and we have a dog called Luna
+  - I already played poker semi-professionally
+  - When I was 20, I owned a cyber cafe with my brother
+  - I love Toronto (especially the Raptors :))

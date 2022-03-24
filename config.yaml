@@ -32,7 +32,7 @@ params:
     inverted: images/site/pluralsight-logo.png
 
   # GitHub repo URL of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/diogomaul/my-website
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
