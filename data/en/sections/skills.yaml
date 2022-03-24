@@ -15,3 +15,6 @@ skills:
   logo: "/images/sections/skills/cloud.png"
   summary: "Highly experienced and certified in Azure, but also with some knowledge and hands on with GCP and AWS."
   
+- name: Cloud Computing
+  logo: "/images/sections/skills/cloud.png"
+  summary: "Highly experienced and certified in Azure, but also with knowledge and hands on in GCP and AWS."
