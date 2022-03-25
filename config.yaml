@@ -29,7 +29,8 @@ params:
 
   logo:
     main: /images/site/pluralsight-logo.png
-    inverted: images/site/pluralsight-logo.png
+    inverted: /images/site/pluralsight-logo.png
+    favicon: /images/site/favicon.ico
 
   # GitHub repo URL of your site
   gitRepo: https://github.com/diogomaul/my-website
