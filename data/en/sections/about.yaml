@@ -64,6 +64,17 @@ badges:
   url: "https://www.credly.com/badges/8a30ac6f-8591-4b0d-b9e6-211ebef67171/public_url"
   badge: "https://images.credly.com/size/340x340/images/83c02517-2555-4ff7-90b7-990d8e720cca/MCSA_Office_365-01.png"
 
+- type: certification
+  name: ITIL Foundation
+  url: "/images/sections/skills/cloud.png"
+  badge: "https://images.credly.com/size/340x340/images/83c02517-2555-4ff7-90b7-990d8e720cca/MCSA_Office_365-01.png"
+
+- type: certification
+  name: MCSA Office 365
+  url: " https://app.exeed.pro/badge/109285"
+  badge: "https://images.credly.com/size/340x340/images/83c02517-2555-4ff7-90b7-990d8e720cca/MCSA_Office_365-01.png"
+
+
 softSkills:
 - name: Enthusiasm
   percentage: 100
