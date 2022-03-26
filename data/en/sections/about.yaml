@@ -11,8 +11,8 @@ section:
 designation: "Cloud Architect"
 # your company information
 company:
-  name: Me Co.
-  url: "https://www.diogomaul.com.br"
+  name: McCain Foods
+  url: "https://www.mccain.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
