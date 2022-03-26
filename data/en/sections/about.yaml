@@ -25,7 +25,20 @@ summary: 'I am a passionate software engineer with x years of working experience
 socialLinks:
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://www.github.com/diogomaul"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://www.twitter.com/diogomaul"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/diogomaul"
+
+- name: Instagram
+  icon: "fab fa-instagram"
+  url: "https://www.linkedin.com/in/instagram"
+
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
