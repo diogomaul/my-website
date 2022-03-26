@@ -28,8 +28,8 @@ params:
   background: /images/site/background.jpg
 
   logo:
-    main: /images/site/pluralsight-logo.png
-    inverted: /images/site/pluralsight-logo.png
+    main: /images/site/favicon.png
+    inverted: /images/site/favicon.png
     favicon: /images/site/favicon.png
 
   # GitHub repo URL of your site
