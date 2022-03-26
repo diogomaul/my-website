@@ -32,5 +32,5 @@ skills:
   summary: "Highly Experienced with Windows Server roles and features and enough knowledge on Linux to support the most common operations."
 
 - name: Network
-  logo: "/images/sections/skills/network.png"
+  logo: "/images/sections/skills/wifi.png"
   summary: "Hands on experience with network appliances and good knowledge of network concepts such as DNS, DHCP, Routing, Firewalls and Load Balancing" 
