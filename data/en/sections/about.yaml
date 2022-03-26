@@ -59,6 +59,11 @@ badges:
   url: "https://www.credly.com/badges/852b10ad-c60c-4395-b9b3-c47bce3100de/public_url"
   badge: "https://images.credly.com/size/340x340/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png"
 
+- type: certification
+  name: MCSA Office 365
+  url: "https://www.credly.com/badges/8a30ac6f-8591-4b0d-b9e6-211ebef67171/public_url"
+  badge: "https://images.credly.com/size/340x340/images/83c02517-2555-4ff7-90b7-990d8e720cca/MCSA_Office_365-01.png"
+
 softSkills:
 - name: Enthusiasm
   percentage: 100
@@ -79,7 +84,3 @@ softSkills:
 - name: Flexibility
   percentage: 90
   color: pink
-
-- name: Commitment
-  percentage: 100
-  color: orange
