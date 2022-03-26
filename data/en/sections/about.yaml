@@ -8,25 +8,21 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Cloud Architect
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Me Co.
+  url: "https://www.diogomaul.com.br"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'I am a passionate Cloud Engineer who in the last 15 years has alternated between multiple engineering, customer-facing and management roles. This diversity of positions that I've held turned me into a professional that can understand and deliver what customers and stakeholders expect from projects much faster.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/diogomaul"
-
 - name: Twitter
   icon: "fab fa-twitter"
   url: "https://www.twitter.com/diogomaul"
@@ -37,16 +33,38 @@ socialLinks:
 
 - name: Instagram
   icon: "fab fa-instagram"
-  url: "https://www.linkedin.com/in/instagram"
+  url: "https://instagram.com/diogomaul"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/diogomaul"
 
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
+- name: Enthusiasm
+  percentage: 100
+  color: yellow
+
+- name: Communication
+  percentage: 90
+  color: blue
+
+- name: Team Work
+  percentage: 95
+  color: green
+
 - name: Leadership
   percentage: 85
-  color: blue
-- name: Team Work
+  color: sky
+
+- name: Flexibility
   percentage: 90
-  color: yellow
+  color: pink
+
+- name: Commitment
+  percentage: 100
+  color: orange
+ 
