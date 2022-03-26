@@ -59,15 +59,46 @@ experiences:
   - Lead the cadence of technical business reviews (MBR, QBR) with Enterprise Customers.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: HBSIS IT SOLUTIONS (NOW AMBEV TECH BRAZIL)
+    url: "https://ambevtech.com.br/"
+    location: Blumenau, BR
+    overview: HBSIS was the biggest IT provider and software developer shop for the Brazilian arm of ABInbev until acquired by ambev itself in 2019.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: IT MANAGER
+    start: May 2016
+    end: May 2018
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Initiated the team on source control management tools with GitHub.
+    - Guided the team towards a DevOps mindset, using tools like Docker, Jenkins and Puppet.
+    - Spearheaded Hybrid Cloud adoption strategy using Azure (IaaS, PaaS and SaaS).
+    - Business Continuity Plan elaboration and execution based on ISO 27001
+
+  - designation: IT CONSULTANT
+    start: Jan 2011
+    end: May 2016
+    responsibilities:
+    - Senior member running a network operation with 200+ Servers, including Active Directory, DNS, DHCP, File Servers, Firewalls, Web Servers, SCCM and SQL Server.
+    - Planned, implemented, and maintained a virtualization strategy using Hyper-V.
+    - Windows Server training for more than 60 different customers.
+
+- company:
+    name: KeepIT TECHNOLOGY FOR BUSINESS
+    url: "http://www.dinamio.com.br/"
+    location: Blumenau, BR
+    overview: KeepIT was one of the biggest Microsoft Partners in the sourthern of Brazil. The company was bought by a bigger Microsoft partner in 2014.
+  positions:
+  - designation: TECHNICAL SUPPORT MANAGER
+    start: Mar 2008
+    end: Jun 20101
+    responsibilities:
+    - Continuous improvements in managed services practice based on ITIL.
+    - Customer and vendor management discussing and improving SLAs.
+    - Created a 24x7 team to monitor customer's IT environments.
+
+  - designation: SYSTEM ADMINISTRATOR
+    start: Aug 2004
+    end: Mar 2008
+    responsibilities:
+    - Designed, deployed, and maintained Windows Server 2003/2008 and related technologies (AD, DNS, DHCP, IIS, File Server, RRAS).
+    - Troubleshoot problems methodically, design and implement a working solution.
+    - Implemented and maintained backup and restore jobs.
