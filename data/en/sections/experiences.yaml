@@ -42,8 +42,7 @@ experiences:
     - Implement a network security strategy using multiple layers of NSGs.
     - Deploy secure Key Vaults to deliver secrets and certificates to servers, users, and DevOps agents. 
     - Create and maintain Storage Accounts to distribute files and host No-SQL Table Storages.
-    - Maintain and Improve CI/CD strategy on DevOps Pipelines to automate resource deployment and 
-    configurations, such as Disks, VMs, DNS, Tags, PIPs, NSGs, SQL Scripts and Certificates.
+    - Maintain and Improve CI/CD strategy on DevOps Pipelines to automate resource deployment and configurations, such as Disks, VMs, DNS, Tags, PIPs, NSGs, SQL Scripts and Certificates.
     - Design and monitor Backup and a Disaster Recovery strategy.
     - Execute Server Migrations from AWS to Azure.
     - Support Third-Party software such as Zabbix, Grafana and Guacamole.
@@ -53,10 +52,10 @@ experiences:
     start: Jul 2018
     end: Oct 2020
     responsibilities:
-  - Set up and conduct large-scale software implementations, migrations, and upgrades.
-  - Design and implement the system architecture to guarantee performance, availability and security.
-  - Deliver remote and customer-site training courses on SOTI Mobicontrol (MDM Tool).
-  - Lead the cadence of technical business reviews (MBR, QBR) with Enterprise Customers.
+    - Set up and conduct large-scale software implementations, migrations, and upgrades.
+    - Design and implement the system architecture to guarantee performance, availability and security.
+    - Deliver remote and customer-site training courses on SOTI Mobicontrol (MDM Tool).
+    - Lead the cadence of technical business reviews (MBR, QBR) with Enterprise Customers.
 
 - company:
     name: HBSIS IT SOLUTIONS (NOW AMBEV TECH BRAZIL)
