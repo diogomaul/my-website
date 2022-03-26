@@ -95,3 +95,7 @@ softSkills:
 - name: Flexibility
   percentage: 90
   color: pink
+
+- name: Commitment
+  percentage: 100
+  color: orange
