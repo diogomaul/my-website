@@ -13,41 +13,50 @@ experiences:
 - company:
     name: McCain Foods.
     url: "https://www.mccain.com/"
-    location: Dhaka Branch
+    location: Toronto, CA
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: McCain Foods is a global business with presence in more than 160 countries including Canada, US, Brazil, Argentina, Colombia, UK, Ireland, France, Belgium, Netherlands, Poland, Australia, New Zealand, South Africa, India, Japan, Malaysia, China… and more.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Cloud Engineer
+    start: Sep 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Implement Azure Infrastructure following IaC (Terraform) best practices.
+    - Advise Product Architects regarding Azure resources to be used in each project, focusing on workplace modernization, performance and cost.
+    - Enable Azure governance via RBAC, Policy Management and Security Center.
+    - Create and maintain Azure DevOps Organizations and Projects.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: SOTI Inc.
+    url: "https://www.soti.net"
+    location: Mississauga, CA
+    overview: SOTI is a proven leader at creating innovative solutions that reduce the cost and complexity of business-critical mobility and  IoT. Thousands of companies around the world depend on us to secure, manage and support their mobile operations.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Cloud Architect
+    start: Oct 2020
+    end: Sep 2021
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Design and deploy VNets to +12 Azure regions and maintain a cross-VNet communication strategy.
+    - Implement a network security strategy using multiple layers of NSGs.
+    - Deploy secure Key Vaults to deliver secrets and certificates to servers, users, and DevOps agents. 
+    - Create and maintain Storage Accounts to distribute files and host No-SQL Table Storages.
+    - Maintain and Improve CI/CD strategy on DevOps Pipelines to automate resource deployment and 
+    configurations, such as Disks, VMs, DNS, Tags, PIPs, NSGs, SQL Scripts and Certificates.
+    - Design and monitor Backup and a Disaster Recovery strategy.
+    - Execute Server Migrations from AWS to Azure.
+    - Support Third-Party software such as Zabbix, Grafana and Guacamole.
+    - Automate actions using Automation Accounts (DSC, Update Management and Runbooks)
+
+  - designation: Cloud Architect
+    start: Jul 2018
+    end: Oct 2020
+    responsibilities:
+  - Set up and conduct large-scale software implementations, migrations, and upgrades.
+  - Design and implement the system architecture to guarantee performance, availability and security.
+  - Deliver remote and customer-site training courses on SOTI Mobicontrol (MDM Tool).
+  - Lead the cadence of technical business reviews (MBR, QBR) with Enterprise Customers.
 
 - company:
     name: Intern Counting Company (ICC).
