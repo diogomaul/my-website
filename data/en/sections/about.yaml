@@ -66,8 +66,8 @@ badges:
 
 - type: certification
   name: EXIN Information Security Foundation - ISO/IEC 27001
-  url: "/images/sections/skills/cloud.png"
-  badge: "https://images.credly.com/size/340x340/images/83c02517-2555-4ff7-90b7-990d8e720cca/MCSA_Office_365-01.png"
+  url: "https://app.exeed.pro/holder/badge/109286"
+  badge: "/images/sections/about/iso27001.png"
 
 - type: certification
   name: ITIL Foundation Certificate in IT-SM
