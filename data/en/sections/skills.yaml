@@ -13,7 +13,7 @@ section:
 skills:
 - name: Cloud Computing
   logo: "/images/sections/skills/cloud.png"
-  summary: "Highly experienced and certified in Azure, but also with some knowledge and hands on with GCP and AWS."
+  summary: "Experienced and certified in Azure, but also with some knowledge and hands on with GCP and AWS."
   
 - name: Scripting
   logo: "/images/sections/skills/powershell.png"
@@ -21,7 +21,7 @@ skills:
 
 - name: Git
   logo: "/images/sections/skills/git.png"
-  summary: "Experienced with git-based development, using both Github and Azure DevOps."
+  summary: "Adherent to git-based development, using both Github and Azure DevOps."
 
 - name: Terraform
   logo: "/images/sections/skills/terraform.png"
@@ -29,7 +29,7 @@ skills:
 
 - name: Operational Systems
   logo: "/images/sections/skills/windows.png"
-  summary: "Highly Experienced with Windows Server roles and features and enough knowledge on Linux to support the most common operations."
+  summary: "Higly experienced in Windows Server roles and features. Also good knowledge on Linux to support the most common operations."
 
 - name: Network
   logo: "/images/sections/skills/wifi.png"
