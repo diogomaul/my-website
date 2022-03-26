@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Cloud Architect
+designation: "Cloud Architect"
 # your company information
 company:
   name: Me Co.
@@ -67,4 +67,3 @@ softSkills:
 - name: Commitment
   percentage: 100
   color: orange
- 
