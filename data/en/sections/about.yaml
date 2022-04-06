@@ -88,14 +88,14 @@ softSkills:
   percentage: 95
   color: green
 
-- name: Leadership
-  percentage: 85
-  color: sky
+#- name: Leadership
+#  percentage: 85
+#  color: sky
 
-- name: Flexibility
-  percentage: 90
-  color: pink
+#- name: Flexibility
+#  percentage: 90
+#  color: pink
 
-- name: Commitment
-  percentage: 100
-  color: orange
+#- name: Commitment
+#  percentage: 100
+#  color: orange
