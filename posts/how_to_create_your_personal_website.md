@@ -1,13 +1,13 @@
 ---
 title: "Analytics and Comments"
-date: 2020-06-08T06:00:23+06:00
-hero: /images/posts/writing-posts/analytics.svg
-description: Adding analytics and disquss comment in hugo 
+date: 2022-04-05T21:30:00-05:00
+#hero: /images/posts/writing-posts/analytics.svg
+description: HOw I created this website using Hugo
 theme: Toha
 menu:
   sidebar:
-    name: Analytics & Comments
-    identifier: analytics-and-comments
+    name: Personal Website
+    identifier: web-development
     weight: 500
 ---
 
