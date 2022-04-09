@@ -79,10 +79,49 @@ git init
 git branch -M main
 ```
 
+###### e. Next, add a theme to the site by installing a theme as a git submodule and then specifying it in the Hugo config file.
+
+```
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/toha
+echo 'theme = "toha"' >> config.yaml
+```
+
+###### f. Add the changed file to the git staging area
+```
+git add -a
+```
+
+###### g. Commit the changes
+```
+git commit -m "initial commit"
+```
+
+Now your changes are commited to your local repository and we will push them to the origin on Git Hub.
+
+###### Push your application to GitHub
+
+OK, maybe this is not what you were expecting to see, we could definitely publish our website.
+
+First, let's make sure we have a repository to push to. That's important, right?
+
+If you have a github account and are already loogen in, you can use https://github.com/new to quickly go the new repo page. Otherwise, the same link will guide you through the account creation process, pretty straight forward.
+
+All right, once in the new repository creation page, name it hugo-static-app.
+
+Now back to your command line tool, run the following command to add the github repo you just created as your origin. (don't forget to add your user name in the YOUR_USER_NAME part of the below code)
+```
+git remote add origin https://github.com/<YOUR_USER_NAME>/hugo-static-app
+```
+
+Finally, let's push your code to GItHub:
+```
+git push --set-upstream origin main
+```
+
 Sources:
-https://chocolatey.org/install#individual
-https://gohugo.io/getting-started/installing/
-https://docs.microsoft.com/en-us/azure/static-web-apps/publish-hugo
-https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2
+https://chocolatey.org/install#individual; 
+https://gohugo.io/getting-started/installing/; 
+https://docs.microsoft.com/en-us/azure/static-web-apps/publish-hugo; 
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2; 
 
 
