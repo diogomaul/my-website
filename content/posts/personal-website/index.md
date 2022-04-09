@@ -110,11 +110,11 @@ If you have a github account and are already loogen in, you can use https://gith
 ##### If you don't have a GitHub account:
 Otherwise, the same link will guide you through the account creation process, pretty straight forward.
 
-All right, once in the new repository creation page, name it hugo-static-app.
+All right, once in the new repository creation page, name it my-website.
 
 Now back to your command line tool, run the following command to add the github repo you just created as your origin. (don't forget to add your user name in the YOUR_USER_NAME part of the below code)
 ```
-git remote add origin https://github.com/<YOUR_USER_NAME>/hugo-static-app
+git remote add origin https://github.com/<YOUR_USER_NAME>/my-website
 ```
 
 Finally, let's push your code to GItHub:
@@ -142,7 +142,7 @@ Navigate to the Azure Portal https://portal.azure.com/
    | ----- | --- |
    | Subscription | Your Azure subscription name |
    | Resource | any name for your resource group |
-   | Name | hugo-static-app |
+   | Name | my-website |
    | Plan type |	Free |
    | Region for Azure Functions API and staging environments |	Select a region closest to you |
    | Source | GitHub |
@@ -153,7 +153,7 @@ Navigate to the Azure Portal https://portal.azure.com/
    | Property | Value |
    | ----- | --- |
    | Organization | Select your desired GitHub organization |
-   | Repository | Select hugo-static-app |
+   | Repository | Select my-website |
    | Branch |	Select main |
    | In the Build Details section | select Hugo from the Build Presets drop-down and keep the default value |
 
