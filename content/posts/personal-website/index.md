@@ -48,32 +48,26 @@ With Hugo installed, I moved to another doc, from Microsoft this time, that help
 
 https://docs.microsoft.com/en-us/azure/static-web-apps/publish-hugo
 
+a. Open a terminal:
 Run the Hugo CLI to create a new app.
-
-Bash
-
-Copy
+```
 hugo new site static-app
+````
+
 Navigate to the newly created app.
 
-Bash
-
-Copy
+```
 cd static-app
+```
+
 Initialize a Git repo.
 
-Bash
-
-Copy
+````
 git init
+```
+
 Ensure that your branch is named main.
 
-Bash
-
-Copy
+```
 git branch -M main
-
-
-
-
-
+```
