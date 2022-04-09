@@ -82,7 +82,7 @@ git branch -M main
 ###### e. Next, add a theme to the site by installing a theme as a git submodule and then specifying it in the Hugo config file.
 
 ```
-git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/toha
+git submodule add https://github.com/hugo-toha/toha themes/toha
 echo 'theme = "toha"' >> config.yaml
 ```
 
@@ -146,7 +146,7 @@ Navigate to the Azure Portal https://portal.azure.com/
    | Source | GitHub |
    | Click | Sign in with GitHub and authenticate with GitHub |
 
-   {{< img src="/posts/personal-website/create-static-app.png" height="400" width="600" align="center" >}}
+{{< img src="/posts/personal-website/create-static-app.png" >}}
 
 ##### Now let's our GitHub repository to the Static WebApp:
 
@@ -156,6 +156,8 @@ Navigate to the Azure Portal https://portal.azure.com/
    | Repository | Select hugo-static-app |
    | Branch |	Select main |
    | In the Build Details section | select Hugo from the Build Presets drop-down and keep the default value |
+
+{{< img src="/posts/personal-website/git-hub-deploy.png" >}}
 
 ###### Review and create
 * Select the Review + Create button to verify the details are all correct.
