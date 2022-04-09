@@ -131,26 +131,26 @@ Select Static Web Apps
 Select Create
 On the Basics tab, enter the following values.
 
-  | Property | Value |
-  | ----- | --- |
-  | Subscription | Your Azure subscription name |
-  | Resource | group	my-hugo-group |
-  | Name | hugo-static-app |
-  | Plan type |	Free |
-  | Region for Azure Functions API and staging environments |	Select a region closest to you |
-  | Source | GitHub |
-  | Select | Sign in with GitHub and authenticate with GitHub |
+   | Property | Value |
+   | ----- | --- |
+   | Subscription | Your Azure subscription name |
+   | Resource | group	my-hugo-group |
+   | Name | hugo-static-app |
+   | Plan type |	Free |
+   | Region for Azure Functions API and staging environments |	Select a region closest to you |
+   | Source | GitHub |
+   | Select | Sign in with GitHub and authenticate with GitHub |
 
 Enter the following GitHub values.
 
-  | Property | Value |
-  | ----- | --- |
-  | Organization | Select your desired GitHub organization |
-  | Repository | Select hugo-static-app |
-  | Branch |	Select main |
-  | In the Build Details section, select |  Hugo from the Build Presets drop-down and keep the default value |
+   | Property | Value |
+   | ----- | --- |
+   | Organization | Select your desired GitHub organization |
+   | Repository | Select hugo-static-app |
+   | Branch |	Select main |
+   | In the Build Details section, select |  Hugo from the Build Presets drop-down and keep the default value |
 
-Review and create
+###### Review and create
 Select the Review + Create button to verify the details are all correct.
 
 Select Create to start the creation of the App Service Static Web App and provision a GitHub Actions for deployment.
@@ -165,7 +165,6 @@ Deployed application
    | ----- | --- |
    | Bob   | 27  |
    | Alice | 23  |
-
 
 Sources:
 https://chocolatey.org/install#individual
