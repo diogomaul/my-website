@@ -146,7 +146,7 @@ Navigate to the Azure Portal https://portal.azure.com/
    | Source | GitHub |
    | Click | Sign in with GitHub and authenticate with GitHub |
 
-   {{< img src="/create-static-app.png" height="400" width="600" align="center" >}}
+   {{< img src="/posts/personal-website/create-static-app.png" height="400" width="600" align="center" >}}
 
 ##### Now let's our GitHub repository to the Static WebApp:
 
