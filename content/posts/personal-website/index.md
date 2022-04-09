@@ -98,7 +98,7 @@ git commit -m "initial commit"
 
 Now your changes are commited to your local repository and we will push them to the origin on Git Hub.
 
-###### Push your application to GitHub
+#### Push your application to GitHub
 
 OK, maybe this is not what you were expecting to see, we could definitely publish our website.
 
@@ -117,6 +117,50 @@ Finally, let's push your code to GItHub:
 ```
 git push --set-upstream origin main
 ```
+
+#### Deploy your website to a web app on Microsoft Azure
+
+So here we are, the last step of our journey.
+
+###### Create the application
+
+Navigate to the Azure portal
+Select Create a Resource
+Search for Static Web Apps
+Select Static Web Apps
+Select Create
+On the Basics tab, enter the following values.
+
+| Property | Value |
+| Subscription | Your Azure subscription name |
+| Resource | group	my-hugo-group |
+| Name | hugo-static-app |
+| Plan type |	Free |
+| Region for Azure Functions API and staging environments |	Select a region closest to you |
+| Source | GitHub |
+| Select | Sign in with GitHub and authenticate with GitHub |
+
+Enter the following GitHub values.
+
+Property	Value
+Organization	Select your desired GitHub organization.
+Repository	Select hugo-static-app.
+Branch	Select main.
+In the Build Details section, select Hugo from the Build Presets drop-down and keep the default values.
+
+Review and create
+Select the Review + Create button to verify the details are all correct.
+
+Select Create to start the creation of the App Service Static Web App and provision a GitHub Actions for deployment.
+
+Once the deployment completes click, Go to resource.
+
+On the resource screen, click the URL link to open your deployed application. You may need to wait a minute or two for the GitHub Actions to complete.
+
+Deployed application
+
+
+
 
 Sources:
 https://chocolatey.org/install#individual; 
