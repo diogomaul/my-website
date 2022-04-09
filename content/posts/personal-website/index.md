@@ -142,11 +142,11 @@ On the Basics tab, enter the following values.
 
 Enter the following GitHub values.
 
-Property	Value
-Organization	Select your desired GitHub organization.
-Repository	Select hugo-static-app.
-Branch	Select main.
-In the Build Details section, select Hugo from the Build Presets drop-down and keep the default values.
+| Property | Value |
+| Organization | Select your desired GitHub organization |
+| Repository | Select hugo-static-app |
+| Branch |	Select main |
+| In the Build Details section, select |  Hugo from the Build Presets drop-down and keep the default value |
 
 Review and create
 Select the Review + Create button to verify the details are all correct.
@@ -159,13 +159,18 @@ On the resource screen, click the URL link to open your deployed application. Yo
 
 Deployed application
 
-
+   | Name  | Age |
+   | ----- | --- |
+   | Bob   | 27  |
+   | Alice | 23  |
 
 
 Sources:
-https://chocolatey.org/install#individual; 
-https://gohugo.io/getting-started/installing/; 
-https://docs.microsoft.com/en-us/azure/static-web-apps/publish-hugo; 
-https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2; 
+https://chocolatey.org/install#individual
 
+https://gohugo.io/getting-started/installing/
+
+https://docs.microsoft.com/en-us/azure/static-web-apps/publish-hugo
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2
 
