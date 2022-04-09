@@ -47,44 +47,41 @@ choco -?
 
 2. Installing HUGO
 
-Depending on which OS you are using, the options will vary a bit.
+All right, now with Chocolatey out of the way, we can start doing some business here. Depending on which OS you are using, the options will vary a bit, but this is what worked as a charm for me:
 
-With the tool choosen, I went ahead for the installation:
-  https://gohugo.io/getting-started/installing/
 
-In summary, with chocolatey installed, all you need to do to install HUGO is running the following command line:
+To install HUGO, all you need to do is running the following Chocolatey command line:
+
 ```
 choco install hugo -confirm
 ```
 
-With Hugo installed, I moved to another doc, from Microsoft this time, that helped me starting the website and publishing it on Azure, using a free static site app.
+Beatiful, eh?
 
-https://docs.microsoft.com/en-us/azure/static-web-apps/publish-hugo
+So now let's create our default website and publish it! AH yes, we are going to publish it to Azure and you will have this online in just a few minutes from now. This is going to be awesome!
 
-a. Open a terminal:
-Run the Hugo CLI to create a new app.
+Still in the powershell/windows terminal shell run the Hugo CLI to create a new app.
 ```
 hugo new site static-app
 ```
 
 Navigate to the newly created app.
-
 ```
 cd static-app
 ```
 
 Initialize a Git repo.
-
 ```
 git init
 ```
 
 Ensure that your branch is named main.
-
 ```
 git branch -M main
 ```
 
-
 Sources:
 https://chocolatey.org/install#individual
+https://gohugo.io/getting-started/installing/
+https://docs.microsoft.com/en-us/azure/static-web-apps/publish-hugo
+
