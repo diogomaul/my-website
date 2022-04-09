@@ -129,8 +129,7 @@ So here we are, the last step of our journey.
 ###### Create the application
 
 Navigate to the Azure Portal https://portal.azure.com/ 
-Select >
-* Create a Resource
+* Select Create a Resource
 * Search for Static Web Apps
 * Select Static Web Apps
 * Select Create
@@ -140,12 +139,14 @@ Select >
    | Property | Value |
    | ----- | --- |
    | Subscription | Your Azure subscription name |
-   | Resource | group	my-hugo-group |
+   | Resource | any name for your resource group |
    | Name | hugo-static-app |
    | Plan type |	Free |
    | Region for Azure Functions API and staging environments |	Select a region closest to you |
    | Source | GitHub |
-   | Select | Sign in with GitHub and authenticate with GitHub |
+   | Click | Sign in with GitHub and authenticate with GitHub |
+
+   {{< img src="/create-static-app.png" height="400" width="600" align="center" >}}
 
 ##### Now let's our GitHub repository to the Static WebApp:
 
@@ -161,6 +162,8 @@ Select >
 * Select Create to start the creation of the App Service Static Web App and provision a GitHub Actions for deployment.
 * Once the deployment completes click, Go to resource.
 * On the resource screen, click the URL link to open your deployed application. You may need to wait a minute or two for the GitHub Actions to complete.
+
+
 
 Sources:
 https://chocolatey.org/install#individual
