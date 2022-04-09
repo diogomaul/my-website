@@ -135,8 +135,10 @@ Select >
 * Select Static Web Apps
 * Select Create
 
-On the Basics tab, enter the following information:
+##### On the Basics tab, enter the following information:
 
+   | Property | Value |
+   | ----- | --- |
    | Subscription | Your Azure subscription name |
    | Resource | group	my-hugo-group |
    | Name | hugo-static-app |
@@ -145,26 +147,20 @@ On the Basics tab, enter the following information:
    | Source | GitHub |
    | Select | Sign in with GitHub and authenticate with GitHub |
 
-Enter the following GitHub values.
+##### Now let's our GitHub repository to the Static WebApp:
 
    | Property | Value |
    | ----- | --- |
    | Organization | Select your desired GitHub organization |
    | Repository | Select hugo-static-app |
    | Branch |	Select main |
-   | In the Build Details section, select |  Hugo from the Build Presets drop-down and keep the default value |
+   | In the Build Details section | select Hugo from the Build Presets drop-down and keep the default value |
 
 ###### Review and create
-Select the Review + Create button to verify the details are all correct.
-
-Select Create to start the creation of the App Service Static Web App and provision a GitHub Actions for deployment.
-
-Once the deployment completes click, Go to resource.
-
-On the resource screen, click the URL link to open your deployed application. You may need to wait a minute or two for the GitHub Actions to complete.
-
-Deployed application
-
+* Select the Review + Create button to verify the details are all correct.
+* Select Create to start the creation of the App Service Static Web App and provision a GitHub Actions for deployment.
+* Once the deployment completes click, Go to resource.
+* On the resource screen, click the URL link to open your deployed application. You may need to wait a minute or two for the GitHub Actions to complete.
 
 Sources:
 https://chocolatey.org/install#individual
