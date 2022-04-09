@@ -134,8 +134,6 @@ Navigate to the Azure Portal https://portal.azure.com/
 * Select Static Web Apps
 * Select Create
 
-{{< img src="/posts/personal-website/create-static-app.png" >}}
-
 ##### On the Basics tab, enter the following information:
 
    | Property | Value |
@@ -148,6 +146,9 @@ Navigate to the Azure Portal https://portal.azure.com/
    | Source | GitHub |
    | Click | Sign in with GitHub and authenticate with GitHub |
 
+The result should be something like this:
+{{< img src="/posts/personal-website/create-static-app.png" >}}
+
 ##### Now let's our GitHub repository to the Static WebApp:
 
    | Property | Value |
@@ -157,6 +158,7 @@ Navigate to the Azure Portal https://portal.azure.com/
    | Branch |	Select main |
    | In the Build Details section | select Hugo from the Build Presets drop-down and keep the default value |
 
+Again, something like this:
 {{< img src="/posts/personal-website/git-hub-deploy.png" >}}
 
 ###### Review and create
