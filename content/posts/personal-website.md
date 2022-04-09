@@ -1,7 +1,7 @@
 ---
 title: "How to create your personal portfolio website"
 date: 2022-04-04T09:45:23+06:00
-hero: /images/posts/personal-website/author.jpg
+#hero: /images/posts/personal-website/author.jpg
 description: How to create a personal portfolio website using Hugo
 theme: Toha
 menu:
