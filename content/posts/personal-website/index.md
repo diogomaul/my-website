@@ -134,6 +134,8 @@ Navigate to the Azure Portal https://portal.azure.com/
 * Select Static Web Apps
 * Select Create
 
+{{< img src="/posts/personal-website/create-static-app.png" >}}
+
 ##### On the Basics tab, enter the following information:
 
    | Property | Value |
@@ -145,8 +147,6 @@ Navigate to the Azure Portal https://portal.azure.com/
    | Region for Azure Functions API and staging environments |	Select a region closest to you |
    | Source | GitHub |
    | Click | Sign in with GitHub and authenticate with GitHub |
-
-{{< img src="/posts/personal-website/create-static-app.png" >}}
 
 ##### Now let's our GitHub repository to the Static WebApp:
 
