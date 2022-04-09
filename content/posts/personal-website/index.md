@@ -96,7 +96,7 @@ git add -a
 git commit -m "initial commit"
 ```
 
-Now your changes are commited to your local repository and we will push them to the origin on Git Hub.
+Now your changes are commited to your local repository and we will push them to the origin on Git Hub. Git is source control technology widely adopted by companies and people around the world and GitHub is the biggest player in this field.
 
 #### Push your application to GitHub
 
@@ -104,7 +104,11 @@ OK, maybe this is not what you were expecting to see, we could definitely publis
 
 First, let's make sure we have a repository to push to. That's important, right?
 
-If you have a github account and are already loogen in, you can use https://github.com/new to quickly go the new repo page. Otherwise, the same link will guide you through the account creation process, pretty straight forward.
+##### If you already have a GitHub account:
+If you have a github account and are already loogen in, you can use https://github.com/new to quickly go the new repo page. 
+
+##### If you don't have a GitHub account:
+Otherwise, the same link will guide you through the account creation process, pretty straight forward.
 
 All right, once in the new repository creation page, name it hugo-static-app.
 
@@ -124,15 +128,15 @@ So here we are, the last step of our journey.
 
 ###### Create the application
 
-Navigate to the Azure portal
-Select Create a Resource
-Search for Static Web Apps
-Select Static Web Apps
-Select Create
-On the Basics tab, enter the following values.
+Navigate to the Azure Portal https://portal.azure.com/ 
+Select >
+* Create a Resource
+* Search for Static Web Apps
+* Select Static Web Apps
+* Select Create
 
-   | Property | Value |
-   | ----- | --- |
+On the Basics tab, enter the following information:
+
    | Subscription | Your Azure subscription name |
    | Resource | group	my-hugo-group |
    | Name | hugo-static-app |
