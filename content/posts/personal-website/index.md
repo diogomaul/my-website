@@ -161,10 +161,6 @@ On the resource screen, click the URL link to open your deployed application. Yo
 
 Deployed application
 
-   | Name  | Age |
-   | ----- | --- |
-   | Bob   | 27  |
-   | Alice | 23  |
 
 Sources:
 https://chocolatey.org/install#individual
