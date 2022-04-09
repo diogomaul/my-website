@@ -10,3 +10,14 @@ menu:
     identifier: personal-website
     weight: 500
 ---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>How to create your personal portfolio website</title>
+</head>
+<body>
+  <p>Test</p>
+</body>
+</html>
