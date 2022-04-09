@@ -28,9 +28,22 @@ So let's get started. You'll see that there are always more than oneor two ways 
 
 Chocolatey is a package manager that will help you downloading Hugo (and many other things you might need for future projects, so it's a cool tool to have installed anyways) 
 
-I did the individual installation on my laptop, following these 5 easy steps:
-https://chocolatey.org/install#individual
+The easiest way to install it is using the individual installation step, following these 5 easy steps:
 
+* First, run Powerhsell (or the new Windows Terminal) as an administrator.
+  * Right-click and select Run as Adminsitrator
+* Second, run the following command. (Important Note: This will set your powershell execution policy to ByPass, you can read more here: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2)
+
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+```
+
+* Third, wait for the command to complete a test if chocolatey is installed running
+
+```
+choco -?
+```
 
 2. Installing HUGO
 
@@ -52,7 +65,7 @@ a. Open a terminal:
 Run the Hugo CLI to create a new app.
 ```
 hugo new site static-app
-````
+```
 
 Navigate to the newly created app.
 
@@ -62,7 +75,7 @@ cd static-app
 
 Initialize a Git repo.
 
-````
+```
 git init
 ```
 
@@ -71,3 +84,7 @@ Ensure that your branch is named main.
 ```
 git branch -M main
 ```
+
+
+Sources:
+https://chocolatey.org/install#individual
