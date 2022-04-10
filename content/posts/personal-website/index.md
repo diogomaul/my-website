@@ -167,11 +167,9 @@ Again, something like this:
 * Once the deployment completes click, Go to resource.
 * On the resource screen, click the URL link to open your deployed application. You may need to wait a minute or two for the GitHub Actions to complete.
 
-
-
 Sources:
-"https://chocolatey.org/install#individual /n"
-"https://gohugo.io/getting-started/installing \n"
+https://chocolatey.org/install#individual /n
+https://gohugo.io/getting-started/installing \n
 https://docs.microsoft.com/en-us/azure/static-web-apps/publish-hugo
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2
 
