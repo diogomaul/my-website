@@ -170,11 +170,8 @@ Again, something like this:
 
 
 Sources:
-https://chocolatey.org/install#individual
-
-https://gohugo.io/getting-started/installing/
-
+"https://chocolatey.org/install#individual /n"
+"https://gohugo.io/getting-started/installing \n"
 https://docs.microsoft.com/en-us/azure/static-web-apps/publish-hugo
-
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2
 
