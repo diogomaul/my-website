@@ -147,6 +147,7 @@ Navigate to the Azure Portal https://portal.azure.com/
    | Click | Sign in with GitHub and authenticate with GitHub |
 
 The result should be something like this:
+
 {{< img src="/posts/personal-website/create-static-app.png" >}}
 
 ##### Now let's our GitHub repository to the Static WebApp:
@@ -159,13 +160,18 @@ The result should be something like this:
    | In the Build Details section | select Hugo from the Build Presets drop-down and keep the default value |
 
 Again, something like this:
+
 {{< img src="/posts/personal-website/git-hub-deploy.png" >}}
 
 ###### Review and create
 * Select the Review + Create button to verify the details are all correct.
 * Select Create to start the creation of the App Service Static Web App and provision a GitHub Actions for deployment.
 * Once the deployment completes click, Go to resource.
-* On the resource screen, click the URL link to open your deployed application. You may need to wait a minute or two for the GitHub Actions to complete.
+* On the resource screen, click the URL link to open your deployed application. 
+
+{{< img src="/posts/personal-website/go-to-your-site.png" >}}
+
+You may need to wait a minute or two for the GitHub Actions to complete.
 
 Sources:
 https://chocolatey.org/install#individual /n
