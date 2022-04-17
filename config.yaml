@@ -46,7 +46,8 @@ params:
   newsletter:
     enable: false
 
-  analytics:
-    enabled: true
-    goatCounter:
-      code: diogomaul
+  features:
+    analytics:
+      enabled: true
+      goatCounter:
+        code: diogomaul

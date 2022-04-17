@@ -32,16 +32,16 @@ Chocolatey is a package manager that will help you downloading Hugo (and many ot
 
 The easiest way to install it is using the individual installation step, following these 5 easy steps:
 
-###### a. First, run Powerhsell (or the new Windows Terminal) as an administrator.
+###### First, run Powerhsell (or the new Windows Terminal) as an administrator.
   * Right-click and select Run as Adminsitrator
 
-###### b. Then, run the following command. (Important Note: This will set your powershell execution policy to ByPass, please check the sources at the end to learn more about it)
+###### Then, run the following command. (Important Note: This will set your powershell execution policy to ByPass, please check the sources at the end to learn more about it)
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
 ```
 
-###### c. Finally, wait for the command to complete a test if chocolatey is installed running
+###### Finally, wait for the command to complete a test if chocolatey is installed running
 ```
 choco -?
 ```
