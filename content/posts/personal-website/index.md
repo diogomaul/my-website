@@ -171,7 +171,15 @@ Again, something like this:
 
 {{< img src="/posts/personal-website/go-to-your-site.png" >}}
 
-You may need to wait a minute or two for the GitHub Actions to complete.
+You'll notice that the default URL won't be using a custom domain, such as myname.com, but an azurestaticapps.net instead. In my next post, I'll go step by step on how to register a domain and use it in your website. 
+
+Regarding the deployment, you may need to wait a minute or two for the GitHub Action to complete it. Another nice thing is that Azure itself creates the YAML file with the job that takes care of the web-app deployment for you. You can find the file in the .github/workflows folder of your repo.
+
+Also, you can check check the deployment status in the actions tab of your GitHub Repository:
+
+{{< img src="/posts/personal-website/git-hub-actions.png" >}}
+
+That would do it for a first post, following this steps you should be able to set up a basic Hugo Static Web App with the Toha (or any other theme). Once you have it set up, you can follow the theme instructions for all the required customizations.
 
 Sources:
 https://chocolatey.org/install#individual /n
