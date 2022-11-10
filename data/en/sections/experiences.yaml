@@ -11,9 +11,31 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Trapeze Group
+    url: "https://www.trapezegroup.com/"
+    location: Mississauga, ON, Canada
+    # company overview
+    overview: "Empowering you to move your communities is our #1 priority. Trapeze helps you drive operational excellence and achieve your goals in safety and rider satisfaction."
+  positions:
+  - designation: Senior DevOps Engineer
+    start: Jul 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Lead the Infrastructure Automation (GitOps) company initiative. 
+    - Write and deploy IaC to create customer environments on Azure using Terraform. 
+    - Train team members on IaC concepts and more specifically, Terraform usage. 
+    - Improve the company's Azure architecture maturity, incorporating the concept of Landing Zones. 
+    - Design and deploy Azure resources such as Azure AD, Virtual Networks, Azure Firewall, NSGs, VPN Gateways, Load Balancers, Storage Accounts, Virtual Machines, Web Apps and SQL Databases. 
+    - Develop PowerShell scripts to complement the build and deploy infrastructure pipelines. 
+    - Automate code deployment using YAML based CI/CD Pipelines on Azure DevOps. 
+    - Work with Project Managers, Product Owners, and Implementation Consultants to fortify the DevOps mentality and bring automation to more stages of the product lifecycle. 
+
+- company:
     name: McCain Foods.
     url: "https://www.mccain.com/"
-    location: Toronto, CA
+    location: Toronto, ON, Canada
     # company overview
     overview: McCain Foods is a global business with presence in more than 160 countries including Canada, US, Brazil, Argentina, Colombia, UK, Ireland, France, Belgium, Netherlands, Poland, Australia, New Zealand, South Africa, India, Japan, Malaysia, China… and more.
   positions:
@@ -31,7 +53,7 @@ experiences:
 - company:
     name: SOTI Inc.
     url: "https://www.soti.net"
-    location: Mississauga, CA
+    location: Mississauga, ON, Canada
     overview: SOTI is a proven leader at creating innovative solutions that reduce the cost and complexity of business-critical mobility and  IoT. Thousands of companies around the world depend on us to secure, manage and support their mobile operations.
   positions:
   - designation: Cloud Architect
@@ -60,7 +82,7 @@ experiences:
 - company:
     name: HBSIS IT SOLUTIONS (NOW AMBEV TECH BRAZIL)
     url: "https://ambevtech.com.br/"
-    location: Blumenau, BR
+    location: Blumenau, SC, Brazil
     overview: HBSIS was the biggest IT provider and software developer shop for the Brazilian arm of ABInbev until acquired by ambev itself in 2019.
   positions:
   - designation: IT MANAGER
@@ -83,7 +105,7 @@ experiences:
 - company:
     name: KEEPIT TECHNOLOGY FOR BUSINESS
     url: "http://www.dinamio.com.br/"
-    location: Blumenau, BR
+    location: Blumenau, SC, Brazil
     overview: KeepIT was one of the biggest Microsoft Partners in the sourthern of Brazil. The company was bought by a bigger Microsoft partner in 2014.
   positions:
   - designation: TECHNICAL SUPPORT MANAGER
