@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: "Cloud Architect"
+designation: "Manager, Cloud Engeneering"
 # your company information
 company:
-  name: McCain Foods
-  url: "https://www.mccain.com"
+  name: GoEasy Ltda
+  url: "https://www.goeasy.com/"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: "I am a passionate Cloud Engineer who, in the last 15 years, has alternated between multiple engineering, customer-facing and management roles. This diversity of positions that I’ve held turned me into a professional who can understand and deliver what customers and stakeholders expect from projects faster."
+summary: "I am a passionate Cloud Professional who, for the past 20 years, has alternated between different positions such as cloud engineering, architecting, DevOps and IT Management roles. This diversity of positions that I’ve held turned me into a professional who can understand and deliver what customers and stakeholders expect from projects faster."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
