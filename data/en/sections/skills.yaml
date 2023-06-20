@@ -13,11 +13,11 @@ section:
 skills:
 - name: Cloud Computing
   logo: "/images/sections/skills/cloud.png"
-  summary: "Experienced and certified in Azure, but also with some knowledge and hands on with GCP and AWS."
+  summary: "Experienced and certified in Azure. Some hands on experience on AWS."
   
 - name: Scripting
   logo: "/images/sections/skills/powershell.png"
-  summary: "Consitent knowledge and experience developing automation script using Powershell. Initiated in Python as well."
+  summary: "Consitent knowledge and experience developing automation script using Powershell and Python."
 
 - name: Git
   logo: "/images/sections/skills/git.png"
@@ -25,7 +25,7 @@ skills:
 
 - name: Terraform
   logo: "/images/sections/skills/terraform.png"
-  summary: "Capable of creating, updating and destroying Azure Infrastructure following IaC best practices using Terraform"
+  summary: "Capable of creating, updating and destroying Infrastructure following IaC best practices using Terraform"
 
 - name: Operational Systems
   logo: "/images/sections/skills/windows.png"
