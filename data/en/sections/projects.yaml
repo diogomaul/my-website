@@ -11,6 +11,6 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 projects:
-- name: WhatShouldIEat?
+- name: WhatShouldIEat
   logo: "/images/sections/skills/cloud.png"
   summary: "App that randomizes a snack, something to cook or take out option for those days when you are out of ideas. Developed in Python and Flask. Published on Azure Static Apps. CI/CD on GitHub using Actions"
